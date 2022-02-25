@@ -1,0 +1,91 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding 0;
+}
+
+header{
+    align-items: center;
+    background-color: #222222;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding: 2opx;
+}
+
+.barraNav{
+    color: #f3f3f3;
+    display: flex;
+    gap: 20px
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+main{
+    margin: 35px 20px;
+    display: flex;
+
+}
+
+main section {
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    height: 350px;
+    width: 490px;
+}
+
+main section p{
+    margin: 20px;
+    color: #fc200c
+}
+
+.promocion{
+    background-image: url(../img/delivery.png);
+    background-repeat: no-repeat;
+}
+ .promocion p span{
+    color:#f3f3f3;
+ }
+
+ .top{
+    background: #ffffff;
+ }
+
+ .top p{
+    text-align: center;
+ }
+
+ .top ol{
+    line-height: 30px;
+    font-size: 20px;
+ }
+
+ .pizzas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+ }
+
+ .pizzas ol li{
+    font-size: 16px;
+ }
+
+ footer{
+    align-items: center;
+    background-color: #222222;
+    color: #ffffff;
+    display: flex;
+    font-size: 16px;
+    height: 150px;
+    justify-content: space-between;
+    padding: 42px;
+ }
+
+ .BarraFooter{
+    line-height: 30px;
+ }
